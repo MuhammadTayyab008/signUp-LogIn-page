@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA3A3CD2CDB8638005D10DF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3A3CC2CDB8638005D10DF /* LoginPage.swift */; };
+		FAE4D3202CD76D99005771CA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D31F2CD76D99005771CA /* CustomTextField.swift */; };
+		FAE4D3232CD76EEA005771CA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D3222CD76EEA005771CA /* UserModel.swift */; };
+		FAE4D3262CD77E5A005771CA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4D3252CD77E5A005771CA /* SignUpViewModel.swift */; };
 		FAEEDCF92CD33B1B00C9829A /* signUp_LogIn_pageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDCF82CD33B1B00C9829A /* signUp_LogIn_pageApp.swift */; };
-		FAEEDCFB2CD33B1B00C9829A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDCFA2CD33B1B00C9829A /* ContentView.swift */; };
 		FAEEDCFD2CD33B1D00C9829A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEEDCFC2CD33B1D00C9829A /* Assets.xcassets */; };
 		FAEEDD002CD33B1D00C9829A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEEDCFF2CD33B1D00C9829A /* Preview Assets.xcassets */; };
 		FAEEDD0A2CD33B1E00C9829A /* signUp_LogIn_pageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDD092CD33B1E00C9829A /* signUp_LogIn_pageTests.swift */; };
 		FAEEDD142CD33B1E00C9829A /* signUp_LogIn_pageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDD132CD33B1E00C9829A /* signUp_LogIn_pageUITests.swift */; };
 		FAEEDD162CD33B1E00C9829A /* signUp_LogIn_pageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDD152CD33B1E00C9829A /* signUp_LogIn_pageUITestsLaunchTests.swift */; };
+		FAEEDD242CD3485E00C9829A /* signUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDD232CD3485E00C9829A /* signUpPage.swift */; };
+		FAEEDD262CD3560100C9829A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEDD252CD3560100C9829A /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAA3A3CC2CDB8638005D10DF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		FAE4D31F2CD76D99005771CA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FAE4D3222CD76EEA005771CA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FAE4D3252CD77E5A005771CA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FAEEDCF52CD33B1B00C9829A /* signUp-LogIn-page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signUp-LogIn-page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEEDCF82CD33B1B00C9829A /* signUp_LogIn_pageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp_LogIn_pageApp.swift; sourceTree = "<group>"; };
-		FAEEDCFA2CD33B1B00C9829A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAEEDCFC2CD33B1D00C9829A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEEDCFF2CD33B1D00C9829A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAEEDD052CD33B1E00C9829A /* signUp-LogIn-pageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signUp-LogIn-pageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,8 @@
 		FAEEDD0F2CD33B1E00C9829A /* signUp-LogIn-pageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "signUp-LogIn-pageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEEDD132CD33B1E00C9829A /* signUp_LogIn_pageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp_LogIn_pageUITests.swift; sourceTree = "<group>"; };
 		FAEEDD152CD33B1E00C9829A /* signUp_LogIn_pageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp_LogIn_pageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAEEDD232CD3485E00C9829A /* signUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpPage.swift; sourceTree = "<group>"; };
+		FAEEDD252CD3560100C9829A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAE4D3212CD76ED2005771CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4D3222CD76EEA005771CA /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAE4D3242CD77E24005771CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4D3252CD77E5A005771CA /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FAEEDCEC2CD33B1B00C9829A = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +120,10 @@
 		FAEEDCF72CD33B1B00C9829A /* signUp-LogIn-page */ = {
 			isa = PBXGroup;
 			children = (
+				FAE4D3242CD77E24005771CA /* ViewModel */,
+				FAE4D3212CD76ED2005771CA /* Model */,
+				FAEEDD222CD3482B00C9829A /* View */,
 				FAEEDCF82CD33B1B00C9829A /* signUp_LogIn_pageApp.swift */,
-				FAEEDCFA2CD33B1B00C9829A /* ContentView.swift */,
 				FAEEDCFC2CD33B1D00C9829A /* Assets.xcassets */,
 				FAEEDCFE2CD33B1D00C9829A /* Preview Content */,
 			);
@@ -125,6 +153,17 @@
 				FAEEDD152CD33B1E00C9829A /* signUp_LogIn_pageUITestsLaunchTests.swift */,
 			);
 			path = "signUp-LogIn-pageUITests";
+			sourceTree = "<group>";
+		};
+		FAEEDD222CD3482B00C9829A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAEEDD232CD3485E00C9829A /* signUpPage.swift */,
+				FAA3A3CC2CDB8638005D10DF /* LoginPage.swift */,
+				FAEEDD252CD3560100C9829A /* CustomButton.swift */,
+				FAE4D31F2CD76D99005771CA /* CustomTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEEDCFB2CD33B1B00C9829A /* ContentView.swift in Sources */,
+				FAEEDD262CD3560100C9829A /* CustomButton.swift in Sources */,
+				FAE4D3232CD76EEA005771CA /* UserModel.swift in Sources */,
+				FAEEDD242CD3485E00C9829A /* signUpPage.swift in Sources */,
+				FAE4D3202CD76D99005771CA /* CustomTextField.swift in Sources */,
+				FAA3A3CD2CDB8638005D10DF /* LoginPage.swift in Sources */,
+				FAE4D3262CD77E5A005771CA /* SignUpViewModel.swift in Sources */,
 				FAEEDCF92CD33B1B00C9829A /* signUp_LogIn_pageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

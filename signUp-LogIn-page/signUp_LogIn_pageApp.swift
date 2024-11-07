@@ -11,7 +11,8 @@ import SwiftUI
 struct signUp_LogIn_pageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            signUpPage()
         }
     }
 }
+
